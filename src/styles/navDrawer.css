@@ -1,0 +1,28 @@
+.drawerHeader {
+    background-color: rgb(0, 188, 212);
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+}
+.drawerHeader i {
+    cursor: pointer;
+}
+.drawerItems {
+    height: 80%;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 188, 212)), to(white));
+    background-image: -webkit-linear-gradient(top, rgb(0, 188, 212), white);
+    background-image: -moz-linear-gradient(top, rgb(0, 188, 212), white);
+    background-image: linear-gradient(to bottom, rgb(0, 188, 212), white);
+}
+#ghLink {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    margin: auto;
+}
+#ghIcon {
+    margin-top: 5px;
+}
