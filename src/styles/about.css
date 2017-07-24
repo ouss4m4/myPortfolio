@@ -1,0 +1,32 @@
+#About {
+    min-height: 100vh;
+}
+
+.avatar-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blurb {
+    max-width: 65%;
+    margin: 12px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 21px;
+    line-height: 1.58;
+    letter-spacing: -.004em;
+    font-weight: 400;
+    color: rgba(0,0,0,0.8);  
+    text-align: justify;
+}
+.blurbLink {
+    max-width: 65%;
+    margin: 24px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1.58;
+    letter-spacing: -.004em;
+    font-weight: 400;
+    color: rgba(0,0,0,0.8);  
+    display: flex;
+    justify-content: space-between;
+}

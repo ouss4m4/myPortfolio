@@ -1,13 +1,13 @@
 .landing {
     display: flex;
     width: 100%;
-    min-height: 40vh;
+    height: 40vh;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
 }
 
 #Landing {
-   background-color: rgb(0, 188, 212)
+   background-color: rgb(0, 188, 212);
 }
 
 

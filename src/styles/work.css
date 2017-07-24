@@ -1,0 +1,32 @@
+#Work {
+    overflow: auto;
+}
+.workGrid {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.workSingle {
+    margin: 3px auto;
+    width: 30%;
+    cursor: pointer;
+}
+.workSingle .workImg {
+    height: 40%;
+    width: 100%;
+}
+.workSingle img{
+    width: 100%;
+    height: 100%;
+}
+.workSingle .desc {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.58;
+    letter-spacing: -.004em;
+    font-weight: 400;
+    color: rgba(0,0,0,0.8);  
+    width: 90%;
+    margin: 9px auto;
+    text-align: center;
+}

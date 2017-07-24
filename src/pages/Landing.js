@@ -1,5 +1,4 @@
 import React from 'react';
-import avatar from '../images/avatar.jpg';
 import '../styles/landing.css';
 
 const Landing = () => {
@@ -8,7 +7,7 @@ const Landing = () => {
             <div className="container">
                 <div className="landing">
                     <div className="landing-text text-center">
-                        <h1> AmassuO</h1>
+                        <h1>EL OUSS</h1>
                         <h3>IDEAS WORTH CODING !!</h3>
                     </div>
                 </div>

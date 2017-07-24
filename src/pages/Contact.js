@@ -2,9 +2,11 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <section id='Contact' style={{ height: '100vh', background: 'magenta' }}>
+        <section id='Contact' >
             <br />
-            <div className='container'><h1>This here will be a section of my Contact</h1></div>
+            <div className='container'>
+                <h1 className="primary"> wtf is this margin up</h1>
+            </div>
 
         </section>
     );
