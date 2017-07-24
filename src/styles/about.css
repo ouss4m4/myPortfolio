@@ -1,7 +1,11 @@
 #About {
     min-height: 100vh;
 }
-
+#greetings {
+    color: rgb(0, 188, 212);
+    font-size: 7em;
+    text-align: center;
+}
 .avatar-wrap {
     display: flex;
     justify-content: center;

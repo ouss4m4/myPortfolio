@@ -9,6 +9,9 @@ const AboutMe = () => {
             <div className="container">
                 <Paper zDepth={4} style={{minHeight: '90vh'}}>
                     <div>
+                        <div id="greetings">
+                            <i className='fa fa-handshake-o' ></i>
+                        </div>
                         <div className="avatar-wrap">
                             <img src={avatar} className="img-circle" alt="avatar" width='220px' height='220px' />
                         </div>

@@ -21,27 +21,27 @@ const work = [
         project: 'PlaceHolder',
         thumbnail: work3,
         link: '#',
-        desc: 'The guffawed far less wow then this or bucolically chose save groundhog thirsty excellent peevishly far less compulsively some inventoried the darn erroneous much upon thus and smart in that well much to goodness dragonfly antagonistic hypnotically wow lemming laggard.'
+        desc: 'The guffawed far less wow then this or bucolically chose save groundhog thirsty excellent peevishly far less compulsively some inventoried the darn erroneous much upon thus and smart in that well much to goodness dragonfly '
     },
     {
         project: 'PlaceHolder',
         thumbnail: work3,
         link: '#',
-        desc: 'The guffawed far less wow then this or bucolically chose save groundhog thirsty excellent peevishly far less compulsively some inventoried the darn erroneous much upon thus and smart in that well much to goodness dragonfly antagonistic hypnotically wow lemming laggard.'
+        desc: 'The guffawed far less wow then this or bucolically chose save groundhog thirsty excellent peevishly far less compulsively some inventoried the darn erroneous much upon thus and smart in that well much to goodness dragonfly '
     
     },
     {
         project: 'PlaceHolder',
         thumbnail: work3,
         link: '#',
-        desc: 'The guffawed far less wow then this or bucolically chose save groundhog thirsty excellent peevishly far less compulsively some inventoried the darn erroneous much upon thus and smart in that well much to goodness dragonfly antagonistic hypnotically wow lemming laggard.'
+        desc: 'The guffawed far less wow then this or bucolically chose save groundhog thirsty excellent peevishly far less compulsively some inventoried the darn erroneous much upon thus and smart in that well much to goodness dragonfly '
     
     },
     {
         project: 'PlaceHolder',
         thumbnail: work3,
         link: '#',
-        desc: 'The guffawed far less wow then this or bucolically chose save groundhog thirsty excellent peevishly far less compulsively some inventoried the darn erroneous much upon thus and smart in that well much to goodness dragonfly antagonistic hypnotically wow lemming laggard.'
+        desc: 'The guffawed far less wow then this or bucolically chose save groundhog thirsty excellent peevishly far less compulsively some inventoried the darn erroneous much upon thus and smart in that well much to goodness dragonfly '
     
     }
 ]
@@ -49,6 +49,9 @@ const Work = () => {
     return (
         <section id='Work'>
             <div className='container'>
+                <div className="workLead">
+                    <h1 className="info">Here is some of my work !</h1>
+                </div>
                 <div className="workGrid">
                    {work.map(p =>
                     <div className="workSingle">
