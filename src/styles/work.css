@@ -33,14 +33,43 @@
     width: 100%;
     height: 100%;
 }
-.workSingle .desc {
+.desc {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     line-height: 1.58;
     letter-spacing: -.004em;
-    font-weight: 400;
     color: rgba(0,0,0,0.8);  
     width: 90%;
     margin: 9px auto;
     text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .workSingle {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 634px) {
+    .workSingle {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 433px) {
+    .workSingle {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .workSingle {
+        width: 98%;
+    }
+    .desc {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 16px;
+        letter-spacing: -.004em;
+        color: rgba(0,0,0,0.8);
+        width: 90%;
+        text-align: center;
+    }
 }
