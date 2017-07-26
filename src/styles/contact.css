@@ -1,0 +1,35 @@
+.socialWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;  
+    height: 100%; 
+}
+#email {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: white;
+}
+
+#contactLead {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.socialItems {
+    list-style-type: none;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.socialItems .fa {
+    font-size: 4em;
+    color: white;
+}
+#Contact {
+    margin-top: 25px;
+    height: 60vh;
+    background-color: rgb(0, 188, 212);
+}
